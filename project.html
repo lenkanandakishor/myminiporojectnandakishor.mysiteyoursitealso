@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nanna | My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            Nanna<span>.</span>
+        </div>
+
+        <nav class="navbar">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#movies">Movies</a>
+            <a href="#contact">Contact</a>
+
+            <button id="themeButton" class="theme-btn">
+                🌙
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="home">
+
+        <div class="home-content">
+
+            <p class="welcome">
+                👋 Welcome to my website
+            </p>
+
+            <h1>
+                Hello, I'm
+                <span>Nanna</span>
+            </h1>
+
+            <h2>
+                A Beginner Web Developer
+            </h2>
+
+            <p class="intro">
+                I am learning HTML, CSS, JavaScript and programming.
+                This is my first personal portfolio website.
+            </p>
+
+            <div class="home-buttons">
+
+                <a href="#about" class="btn">
+                    About Me
+                </a>
+
+                <a href="#projects" class="btn secondary-btn">
+                    My Projects
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="home-card">
+
+            <div class="profile-circle">
+                👨‍💻
+            </div>
+
+            <h3>My First Website</h3>
+
+            <p>
+                Learning • Creating • Improving
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <p>Get to know me</p>
+
+            <h2>About Me</h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <h3>Who am I?</h3>
+
+                <p>
+                    Hello! I am Nanna. I am interested in programming
+                    and web development. I am currently learning how
+                    websites work and how to build them using HTML,
+                    CSS and JavaScript.
+                </p>
+
+                <p>
+                    My goal is to improve my programming skills,
+                    create useful projects and become a better
+                    developer step by step.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="info-item">
+                    <strong>🎓 Education</strong>
+                    <span>College Student</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>💻 Learning</strong>
+                    <span>Web Development</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>🌱 Level</strong>
+                    <span>Beginner</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>🎯 Goal</strong>
+                    <span>Become a Developer</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-title">
+
+            <p>What I am learning</p>
+
+            <h2>My Skills</h2>
+
+        </div>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🌐
+                </div>
+
+                <h3>HTML</h3>
+
+                <p>
+                    I use HTML to create the structure
+                    of webpages.
+                </p>
+
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🎨
+                </div>
+
+                <h3>CSS</h3>
+
+                <p>
+                    I use CSS to design and make
+                    websites look attractive.
+                </p>
+
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    ⚡
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    I am learning JavaScript to add
+                    interaction to websites.
+                </p>
+
+                <div class="progress">
+                    <div class="progress-bar javascript"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    💻
+                </div>
+
+                <h3>C / C++</h3>
+
+                <p>
+                    I am learning programming concepts
+                    using C and C++.
+                </p>
+
+                <div class="progress">
+                    <div class="progress-bar cpp"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+
+            <p>Things I have created</p>
+
+            <h2>My Projects</h2>
+
+        </div>
+
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A personal portfolio website created
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+                <button class="project-btn"
+                    onclick="showMessage('Portfolio project selected!')">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>Calculator</h3>
+
+                <p>
+                    A simple calculator project for
+                    practicing JavaScript operations.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <button class="project-btn"
+                    onclick="showMessage('Calculator project selected!')">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <h3>Student Website</h3>
+
+                <p>
+                    A website designed to display student
+                    information and academic details.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <button class="project-btn"
+                    onclick="showMessage('Student website selected!')">
+                    View Project
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MOVIES ================= -->
+
+    <section id="movies" class="section movies-section">
+
+        <div class="section-title">
+
+            <p>My interests</p>
+
+            <h2>Favorite Movies</h2>
+
+        </div>
+
+
+        <div class="movies-container">
+
+            <label class="movie-option">
+
+                <input type="radio"
+                       name="movie"
+                       value="Joe">
+
+                <span>🎬 Joe</span>
+
+            </label>
+
+
+            <label class="movie-option">
+
+                <input type="radio"
+                       name="movie"
+                       value="Sita Ramam">
+
+                <span>🎬 Sita Ramam</span>
+
+            </label>
+
+
+            <label class="movie-option">
+
+                <input type="radio"
+                       name="movie"
+                       value="Athadu">
+
+                <span>🎬 Athadu</span>
+
+            </label>
+
+        </div>
+
+
+        <button class="btn movie-btn"
+                onclick="showMovie()">
+            Select Movie
+        </button>
+
+        <p id="movieResult"></p>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <div class="section-title">
+
+            <p>Let's connect</p>
+
+            <h2>Contact Me</h2>
+
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Get In Touch</h3>
+
+                <p>
+                    If you want to contact me, fill out
+                    the form. This is a frontend practice
+                    form.
+                </p>
+
+                <div class="contact-item">
+                    📧
+                    <span>Email: example@gmail.com</span>
+                </div>
+
+                <div class="contact-item">
+                    📱
+                    <span>Phone: +91 XXXXX XXXXX</span>
+                </div>
+
+                <div class="contact-item">
+                    📍
+                    <span>India</span>
+                </div>
+
+            </div>
+
+
+            <form id="contactForm" class="contact-form">
+
+                <label for="username">
+                    Username
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <h2>Nanna<span>.</span></h2>
+
+        <p>
+            My first personal website 🚀
+        </p>
+
+        <div class="social-links">
+
+            <a href="https://www.instagram.com/"
+               target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://github.com/"
+               target="_blank">
+                GitHub
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Nanna. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
